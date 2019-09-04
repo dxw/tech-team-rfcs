@@ -6,8 +6,9 @@ dxw staff use this repository as a forum to make and document technical decision
 
 1. Create a new branch on this repo and copy `rfc-000-template.md` to `rfc-000-my-proposal.md` and edit.
 1. Include any images etc in a separate directory named `rfc-000` and link to them.
-1. Make a Pull Request (PR) for your branch.
+1. Make a draft Pull Request (PR) for your branch.
 1. Rename your file and directory with the number of the PR and push as a new commits.
+1. Mark your PR as "Ready for review".
 1. Post a link to your PR in #tech-team on Slack. @mention teams or individuals in the PR description if you want particular attention from them.
 1. GOV.UK members discuss your proposal using both inline comments against your RFC document and the general PR comments section. Non-technical staff will need to create a free Github account in order to comment.
 1. As changes are requested and agreed in comments, make the changes in your RFC and push them as new commits.
