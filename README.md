@@ -35,6 +35,34 @@ decisions.
    people agree rejecting it is the right thing to do. In this case the PR
    should be closed with a suitable comment.
 
+## Voting with the GitHub review system
+
+Given that there are a number of
+[tools available to us when using Pull Requests](https://help.github.com/en/articles/about-pull-request-reviews)
+to facilitate this process we should be explicit about how we use each to
+communicate in order that it is clear how we can reach consensus.
+
+### Comment
+
+- Not indicative of preference and can be used for any questions, suggestions
+and typos
+
+### Approve
+
+- This decision SHOULD be accepted
+- A description is optional
+
+### Request changes
+
+- This decision SHOULD NOT be accepted unless the given consequences are
+acceptable
+- A description is required and please be prepared to respond to further
+comments
+
+### Emoji/reactions
+
+- Not indicative of preference
+
 ## Linting
 
 First install dependencies:
