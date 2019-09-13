@@ -13,3 +13,9 @@ Describe the problem your RFC is trying to solve.
 Describe your proposal, with a focus on clarity of meaning. You MAY use
 [RFC2119-style](https://www.ietf.org/rfc/rfc2119.txt) MUST, SHOULD and MAY
 language to help clarify your intentions.
+
+## Next steps
+
+Describe any changes to code or documentation that will need to happen if this
+RFC is accepted. For example, this might be modifying the playbook or a template
+project.
