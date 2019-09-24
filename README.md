@@ -83,10 +83,14 @@ To automatically fix some linting issues:
 npm run lint:fix
 ```
 
+This repository is set up to run the linter automatically as a pre-commit step.
+If for some reason you need to override that, add `--no-verify` as a flag to
+`git commit`. You probably shouldn't ever have to do this.
+
 ## Principles
 
 In order to decide what system to use we have to consider what we as a team
- value, and in turn what a good process looks like.
+value, and in turn what a good process looks like.
 
 1. we make decisions together
    - everyone is informed of proposals and is given a fair amount of time in
@@ -102,8 +106,8 @@ In order to decide what system to use we have to consider what we as a team
 1. standards are a set of defaults
 1. authors are responsible for their proposals
    - this ensures it doesn't fall as a responsibility on any individual
-   - engage and encourage others to join discussions (bring up proposals at
-     tech team forums)
+   - engage and encourage others to join discussions (bring up proposals at tech
+     team forums)
 1. management of stale proposals should be clear and straightforward
    - the conditions under which a proposal should be considered inactive are
      clear, to reduce conflict and simplify decisions
