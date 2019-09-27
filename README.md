@@ -82,3 +82,34 @@ To automatically fix some linting issues:
 ```sh
 npm run lint:fix
 ```
+
+## Principles
+
+In order to decide what system to use we have to consider what we as a team
+ value, and in turn what a good process looks like.
+
+1. we make decisions together
+   - everyone is informed of proposals and is given a fair amount of time in
+     order to join the discussion
+   - decisions are not made alone, a minimum consensus of 3 is needed
+1. reaching consensus is not a chore
+   - we understand that not everyone in the team will have time, headspace or
+     opinions to be involved in every decision. Provided changes are
+     communicated, consensus should be possible between active parties
+   - if consensus isn't clear, we should default to no action unless we have no
+     preexisting decision on the topic in which case some guidance is nearly
+     always better than none
+1. standards are a set of defaults
+1. authors are responsible for their proposals
+   - this ensures it doesn't fall as a responsibility on any individual
+   - engage and encourage others to join discussions (bring up proposals at
+     tech team forums)
+1. management of stale proposals should be clear and straightforward
+   - the conditions under which a proposal should be considered inactive are
+     clear, to reduce conflict and simplify decisions
+   - proposals that are considered inactive should be closed promptly, so that
+     only relevant topics for the team to review are listed
+1. the rationale for decisions is documented
+   - help future members of the team understand why decisions were made. This
+     understanding will allow us to make more informed decisions and increase
+     our empathy for past decisions
