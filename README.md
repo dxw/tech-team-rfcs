@@ -45,7 +45,7 @@ communicate in order that it is clear how we can reach consensus.
 ### Comment
 
 - Not indicative of preference and can be used for any questions, suggestions
-and typos
+  and typos
 
 ### Approve
 
@@ -55,9 +55,9 @@ and typos
 ### Request changes
 
 - This decision SHOULD NOT be accepted unless the given consequences are
-acceptable
+  acceptable
 - A description is required and please be prepared to respond to further
-comments
+  comments
 
 ### Emoji/reactions
 
