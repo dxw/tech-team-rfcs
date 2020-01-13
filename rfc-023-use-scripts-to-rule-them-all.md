@@ -18,9 +18,6 @@ onboarding new developers to a project.
 
 ## Proposal
 
-We SHOULD prefer the patterns in the [Scripts To Rule Them All](https://github.com/github/scripts-to-rule-them-all)
-repository for tasks which are covered by that pattern.
-
 An application SHOULD have a `script/bootstrap` script which fulfils the
 application's dependencies for the environment it is run in.
 
@@ -30,7 +27,13 @@ suite.
 An application SHOULD have a `script/server` script which will start a working
 instance of the application.
 
-An application MAY have other scripts following the pattern.
+An application MAY have a `script/setup` script.
+
+An application MAY have a `script/update` script.
+
+An application MAY have a `script/console` script.
+
+An application MAY have a `script/cibuild` script.
 
 ## Next steps
 
