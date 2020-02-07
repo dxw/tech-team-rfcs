@@ -1,4 +1,4 @@
-# Don't default to using Haml in Rails projects, use erb instead
+# Use ERB as the default templating language in our Rails projects
 
 ## Summary
 
@@ -14,11 +14,11 @@ and makes our code less approachable to those who don't.
 Asking folks to learn an abstraction over something as common as html markup
 could be placing an unnecessary burden on their time and energies.
 
-Erb has the same, familiar visual 'style' as many other popular templating
+ERB has the same, familiar visual 'style' as many other popular templating
 languages.
 
-As Rails ships with erb as it's own default, large amounts of Rails
-documentation and other learning resources will show erb examples, by using erb
+As Rails ships with ERB as it's own default, large amounts of Rails
+documentation and other learning resources will show ERB examples, by using ERB
 in our Rails projects we make the code even more approachable and reduce the
 burden on those asked to build and maintain our code.
 
@@ -29,10 +29,10 @@ An application SHOULD NOT use Haml as a default template language.
 An application MAY use Haml if the team working on it feel the benefits outweigh
 the drawbacks outlined above.
 
-The dxw Rails template SHOULD use erb as the default template language.
+The dxw Rails template SHOULD use ERB as the default template language.
 
 ## Next steps
 
 - Remove Haml from the [dxw
-  rails-template](https://github.com/dxw/rails-template) switching back to erb
+  rails-template](https://github.com/dxw/rails-template) switching back to ERB
   which is the default that ships with Rails
