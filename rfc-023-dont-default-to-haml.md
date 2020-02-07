@@ -3,7 +3,7 @@
 ## Summary
 
 Haml comes with a steep learning curve for a large number of folks and makes our
-code less approachable and harder to debug. Erb ships with Rails and bares close
+code less approachable and harder to debug. Erb ships with Rails and bears close
 similarity to many other templating languages.
 
 ## Problem
@@ -23,7 +23,7 @@ the browser and see direct correlations with the template that it rendered from.
 Asking folks to learn an abstraction over something as familiar as HTML could be
 placing an unnecessary burden on their time and energies.
 
-As Rails ships with ERB as it's own default, large amounts of Rails
+As Rails ships with ERB as its own default, large amounts of Rails
 documentation and other learning resources will show ERB examples, by using ERB
 in our Rails projects we make the code even more approachable and reduce the
 burden on those asked to build and maintain our code.
