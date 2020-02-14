@@ -41,4 +41,5 @@ necessary configuration and run tests on a continuous integration server.
 
 ## Next steps
 
-- Add `script/bootstrap`, `script/test` and `script/server` to the [rails-template](https://github.com/dxw/rails-template)
+- Add examples of all scripts to the
+- [rails-template](https://github.com/dxw/rails-template).
