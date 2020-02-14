@@ -2,9 +2,9 @@
 
 ## Summary
 
-We should adopt the [Scripts To Rule Them All](https://github.com/github/scripts-to-rule-them-all)
-pattern which GitHub uses to standardise the names of common scripts between
-various applications.
+We should adopt the [Scripts To Rule Them
+All](https://github.com/github/scripts-to-rule-them-all) pattern which GitHub
+uses to standardise the names of common scripts between various applications.
 
 Standardising the names, locations and behaviour of these scripts makes the
 experience of developing, testing and running applications more consistent.
@@ -18,22 +18,26 @@ onboarding new developers to a project.
 
 ## Proposal
 
-An application SHOULD have a `script/bootstrap` script which fulfils the
+An application SHOULD have a `script/bootstrap` script, which fulfils the
 application's dependencies for the environment it is run in.
 
-An application SHOULD have a `script/test` script which runs a standard test
+An application SHOULD have a `script/test` script, which runs a standard test
 suite.
 
-An application SHOULD have a `script/server` script which will start a working
+An application SHOULD have a `script/server` script, which will start a working
 instance of the application.
 
-An application MAY have a `script/setup` script.
+An application MAY have a `script/setup` script, which will bring the
+application to a known state following a clone.
 
-An application MAY have a `script/update` script.
+An application MAY have a `script/update` script, which will perform necessary
+migrations and bootstrapping following an update to the code.
 
-An application MAY have a `script/console` script.
+An application MAY have a `script/console` script, which will open the
+application's console.
 
-An application MAY have a `script/cibuild` script.
+An application MAY have a `script/cibuild` script, which will perform the
+necessary configuration and run tests on a continuous integration server.
 
 ## Next steps
 
