@@ -95,4 +95,4 @@ MUST be added to the project to explain and document why.
 
 - Add a Dockerfile to the [rails-template](https://github.com/dxw/rails-template)
 - Edit the GitHub action script that runs CI in the [rails-template](https://github.com/dxw/rails-template)
-to build and test with Docker containers
+  to build and test with Docker containers
