@@ -16,7 +16,7 @@ const getProposalPRs = async function () {
 
   return pulls.data.filter(function (pull) {
     let labels = pull.labels.map((label) => label.name)
-    return !labels.includes('tooling')
+    return !(labels.includes('tooling') || labels.includes('dependencies'))
   })
 };
 
