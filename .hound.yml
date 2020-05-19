@@ -1,3 +1,9 @@
 remark:
   enabled: true
   config_file: .remarkrc.hound
+
+jshint:
+  enabled: false
+
+eslint:
+  enabled: true
