@@ -7,12 +7,17 @@ const octokit = new Octokit({
 const repoOwner = process.env.REPOSITORY_OWNER;
 const repoName = process.env.REPOSITORY_NAME;
 
-const getOpenPRs = function () {
-  return octokit.pulls.list({
+const getProposalPRs = async function () {
+  const pulls = await octokit.pulls.list({
     owner: repoOwner,
     repo: repoName,
-    state: "open",
+    state: "open"
   });
+
+  return pulls.data.filter(function (pull) {
+    let labels = pull.labels.map((label) => label.name)
+    return !labels.includes('tooling')
+  })
 };
 
 const createCheck = function (sha, state, description) {
@@ -26,11 +31,11 @@ const createCheck = function (sha, state, description) {
   });
 };
 
-getOpenPRs().then(function (response) {
+getProposalPRs().then(function (response) {
   const today = new Date();
   const twoWeeksAgo = new Date(today - 1000 * 60 * 60 * 24 * 14);
 
-  response.data.forEach(function (pr) {
+  response.forEach(function (pr) {
     if (new Date(pr.created_at) > twoWeeksAgo) {
       // Create a pending check
       createCheck(
