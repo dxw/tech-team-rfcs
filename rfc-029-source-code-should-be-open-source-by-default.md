@@ -129,7 +129,7 @@ use a repository’s readme to explain the state of the project – for
 example, that it’s a proof of concept.
 
 Although we produce software which is open source and sometimes useful, our
-principles emphasise that we are *working in the open*—that is, we are
+principles emphasise that we are _working in the open_—that is, we are
 observable. It doesn’t imply we’re always exemplary.
 
 ## Next steps
