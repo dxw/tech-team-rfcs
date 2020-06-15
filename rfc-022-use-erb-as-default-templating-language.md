@@ -1,4 +1,4 @@
-# Use ERB by default in our Rails projects 
+# Use ERB by default in our Rails projects
 
 ## Summary
 
