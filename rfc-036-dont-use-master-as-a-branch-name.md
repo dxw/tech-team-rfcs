@@ -27,6 +27,13 @@ Developers MAY set their local development environments up to create Git
 repositories with `main` as the default branch using
 [the steps described by Leigh Brenecki](https://leigh.net.au/writing/git-init-main/).
 
+Alternatively, when the feature lands in Git, developers MAY instead set their
+default branch using the new `init.defaultBranch` option:
+
+```sh
+git config --global init.defaultBranch main
+```
+
 ## Next steps
 
 - Change all existing internal repositories with single "main" branches to
