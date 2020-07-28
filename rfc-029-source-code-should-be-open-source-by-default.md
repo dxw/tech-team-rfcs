@@ -136,7 +136,7 @@ observable. It doesn’t imply we’re always exemplary.
 
 - Go through our public GitHub repos to make sure they have a
   `LICENCE`
-- Go through our private GitHub repos and either make them private or
+- Go through our private GitHub repos and either make them public or
   add a `WHY_PRIVATE.md`
 - Start a conversation about which repositories we’re proud of, and
   pin them to dxw’s GitHub page
