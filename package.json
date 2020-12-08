@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@octokit/rest": "^17.6.0",
-    "husky": "^3.0.5",
+    "husky": "^4.3.5",
     "remark-cli": "^7.0.0",
     "remark-lint-no-dead-urls": "^0.5.0",
     "remark-preset-lint-markdown-style-guide": "^2.1.3",
