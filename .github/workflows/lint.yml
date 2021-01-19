@@ -1,0 +1,13 @@
+on: pull_request
+name: Lint with Remark, JSHint, ESLint
+jobs:
+  remark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Running Remark
+        uses: ocular-d/action-remark@0.0.10
+
+      - name: Fail if there were lint errors
+        run: exit ${{ steps.remark.outputs.exit_code }}
