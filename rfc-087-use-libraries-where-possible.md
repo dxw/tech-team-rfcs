@@ -28,10 +28,10 @@ normally implement ourselves.
 
 Some examples might include:
 
-* Date handling and formatting
-* Language inflection
-* Queueing and background job running
-* Connecting to remote APIs
+- Date handling and formatting
+- Language inflection
+- Queueing and background job running
+- Connecting to remote APIs
 
 The need for this will differ across languages and frameworks. For
 instance, Rails provides many capabilities that separate libraries
@@ -54,19 +54,20 @@ license conditions on derivatives).
 You can use tools to check license compatibility in your entire
 dependency tree:
 
-* Ruby: `bundle licenses | sed 's/.*: //g' | sort | uniq`
-* Node.js: `npx license-checker --summary` ([setup instructions](https://www.npmjs.com/package/license-checker))
+- Ruby: `bundle licenses | sed 's/.*: //g' | sort | uniq`
+- Node.js: `npx license-checker --summary` ([setup instructions](https://www.npmjs.com/package/license-checker))
 
 In general, [permissive licenses](https://en.wikipedia.org/wiki/Permissive_software_license)
 are considered to be MIT compatible, in particular:
 
-* [Apache](https://opensource.org/licenses/Apache-2.0)
-* BSD variants: [3-Clause](https://opensource.org/licenses/BSD-3-Clause),
-  [2-Clause](https://opensource.org/licenses/BSD-2-Clause), or
-  [0BSD](https://opensource.org/licenses/0BSD)
-* [ISC](https://opensource.org/licenses/ISC)
-* [MPL](https://opensource.org/licenses/MPL-2.0)
-* [Unlicense](https://opensource.org/licenses/unlicense)
+- [Apache](https://opensource.org/licenses/Apache-2.0)
+- BSD variants:
+  - [3-Clause](https://opensource.org/licenses/BSD-3-Clause),
+  - [2-Clause](https://opensource.org/licenses/BSD-2-Clause), or
+  - [0BSD](https://opensource.org/licenses/0BSD)
+- [ISC](https://opensource.org/licenses/ISC)
+- [MPL](https://opensource.org/licenses/MPL-2.0)
+- [Unlicense](https://opensource.org/licenses/unlicense)
 
 ### Quality and Reliability
 
