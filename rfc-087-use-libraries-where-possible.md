@@ -62,8 +62,8 @@ are considered to be MIT compatible, in particular:
 
 - [Apache](https://opensource.org/licenses/Apache-2.0)
 - BSD variants:
-  - [3-Clause](https://opensource.org/licenses/BSD-3-Clause),
-  - [2-Clause](https://opensource.org/licenses/BSD-2-Clause), or
+  - [3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+  - [2-Clause](https://opensource.org/licenses/BSD-2-Clause)
   - [0BSD](https://opensource.org/licenses/0BSD)
 - [ISC](https://opensource.org/licenses/ISC)
 - [MPL](https://opensource.org/licenses/MPL-2.0)
@@ -78,7 +78,7 @@ proxy measures to judge this.
 
 [Libraries.io](https://libraries.io) is an excellent source of this
 information. It shows a number of statistics for libraries across
-many languages. For an example, see the entry for \[indefinite]
+many languages. For an example, see the entry for [indefinite]
 (https://libraries.io/npm/indefinite).
 
 Libraries.io uses a rating system called [SourceRank](https://docs.libraries.io/overview#sourcerank)
