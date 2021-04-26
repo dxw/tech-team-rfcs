@@ -81,12 +81,10 @@ information. It shows a number of statistics for libraries across
 many languages. For an example, see the entry for [indefinite]
 (https://libraries.io/npm/indefinite).
 
-Libraries.io uses a rating system called [SourceRank](https://docs.libraries.io/overview#sourcerank)
-to provide a summary of quality, which ranges from 0 to 30. The
-lower this value, the more wary we should be about acquiring a
-dependency. There is no defined cutoff for quality, but packages
-rating below **15** should be inspected a little more carefully, and
-packages below **10** should probably be considered unreliable.
+
+Developers need only make this quality assessment on *direct* dependencies; it is not
+an effective use of time to check the quality of dependencies of our dependencies, unless
+there is reason to suspect problems.
 
 ## Next steps
 
