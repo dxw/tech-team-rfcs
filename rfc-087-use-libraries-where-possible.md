@@ -72,15 +72,35 @@ are considered to be MIT compatible, in particular:
 ### Quality and Reliability
 
 We SHOULD only use dependencies that are maintained, trustworthy,
-and of a decent quality. It is nigh-impossible for us to inspect the
-source code of all our dependencies, however, so developer MAY use
-proxy measures to judge this.
+and of a decent quality.
 
-[Libraries.io](https://libraries.io) is an excellent source of this
-information. It shows a number of statistics for libraries across
+It is nigh-impossible for us to inspect the source code of all our
+dependencies, however, so developer MAY use proxy measures to judge
+this. Libraries.io uses a rating system called [SourceRank](https://docs.libraries.io/overview#sourcerank)
+which defines a good set of proxy measures, such as:
+
+- Are dependencies kept up to date?
+- Has the project had a release in the last 6 months?
+- Is the project more than 6 months old?
+- How many contributors does it have?
+- Does it use semantic versioning?
+
+A developer MAY assess these sort of things manually, but SHOULD
+check the published SourceRank score on  [Libraries.io](https://libraries.io)
+as an overview. The website shows a number of statistics for libraries across
 many languages. For an example, see the entry for [indefinite]
 (https://libraries.io/npm/indefinite).
 
+SourceRank scores range from 0 to 30. The lower this value, the
+more wary we should be about acquiring a dependency. There is no
+defined cutoff for quality, but packages rating below **15** should
+be inspected a little more carefully, and packages below **10** should
+probably be considered unreliable.
+
+As well as SourceRank measured factors, developers MAY also wish to look at:
+
+- Do the maintainers respond to issues?
+- Are there long-running open PRs?
 
 Developers need only make this quality assessment on *direct* dependencies; it is not
 an effective use of time to check the quality of dependencies of our dependencies, unless
