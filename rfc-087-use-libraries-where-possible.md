@@ -39,7 +39,7 @@ would be needed for when working in Node.js. Conversely, frontend
 code may wish to avoid dependencies to keep file sizes low.
 
 Acquiring dependencies is not free, however. Developers MUST check
-them for license compatibility, and SHOULD assess them for quality
+them for licence compatibility, and SHOULD assess them for quality
 and reliability, so that we are sure they will be a net positive
 addition to our projects.
 
