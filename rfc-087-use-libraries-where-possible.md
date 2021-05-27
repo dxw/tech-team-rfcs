@@ -22,14 +22,14 @@ off-the-shelf open source library.
 By default, we SHOULD aim to find and reuse existing open source
 libraries that fulfil the requirement rather than writing our own.
 
-Using existing code is preferable in order to get better tested
-code, a lower maintenance burden, and more features than we might
-normally implement ourselves.
+Using existing code is preferable in order to get more proven
+code, a lower maintenance burden, and additional useful features we
+might not have time to implement ourselves.
 
 Some examples might include:
 
 - Date handling and formatting
-- Language inflection
+- Language inflection (e.g. pluralisation)
 - Queueing and background job running
 - Connecting to remote APIs
 
@@ -55,7 +55,13 @@ You can use tools to check license compatibility in your entire
 dependency tree:
 
 - Ruby: `bundle licenses | sed 's/.*: //g' | sort | uniq`
-- Node.js: `npx license-checker --summary` ([setup instructions](https://www.npmjs.com/package/license-checker))
+- Node.js: `npx license-checker --summary` ([setup instructions](https://www.
+npmjs.com/package/license-checker))
+- Alternatives:
+  - [LicenseFinder](https://github.com/pivotal/LicenseFinder)
+  - [delice](https://github.com/cutenode/delice)
+  - [licensed](https://github.com/github/licensed) and
+    [bundler-licensed](https://github.com/sergey-alekseev/bundler-licensed)
 
 In general, [permissive licenses](https://en.wikipedia.org/wiki/Permissive_software_license)
 are considered to be MIT compatible, in particular:
@@ -68,6 +74,7 @@ are considered to be MIT compatible, in particular:
 - [ISC](https://opensource.org/licenses/ISC)
 - [MPL](https://opensource.org/licenses/MPL-2.0)
 - [Unlicense](https://opensource.org/licenses/unlicense)
+- [Public Domain](https://en.wikipedia.org/wiki/Public-domain-equivalent_license)
 
 ### Quality and Reliability
 
@@ -76,7 +83,8 @@ and of a decent quality.
 
 It is nigh-impossible for us to inspect the source code of all our
 dependencies, however, so developer MAY use proxy measures to judge
-this. Libraries.io uses a rating system called [SourceRank](https://docs.libraries.io/overview#sourcerank)
+this. Libraries.io uses a rating system called
+[SourceRank](https://docs.libraries.io/overview#sourcerank)
 which defines a good set of proxy measures, such as:
 
 - Are dependencies kept up to date?
@@ -102,9 +110,9 @@ As well as SourceRank measured factors, developers MAY also wish to look at:
 - Do the maintainers respond to issues?
 - Are there long-running open PRs?
 
-Developers need only make this quality assessment on *direct* dependencies; it is not
-an effective use of time to check the quality of dependencies of our dependencies, unless
-there is reason to suspect problems.
+Developers need only make this quality assessment on _direct_ dependencies;
+it is not an effective use of time to check the quality of dependencies of
+our dependencies, unless there is reason to suspect problems.
 
 ## Next steps
 
@@ -114,3 +122,7 @@ may even be possible to automate SourceRank checks against the
 [Libraries.io API](https://libraries.io/api), though this may be
 slow. There may also be existing CI tools that we could use that
 will perform these functions for us.
+
+We also create a list of packages we've reviewed in detail (including
+version and date checked), to minimize the repeated work in doing
+these checks.
