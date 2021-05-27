@@ -109,7 +109,7 @@ there is reason to suspect problems.
 ## Next steps
 
 We could look at automating these checks as part of our build
-process. Licenses could be checked against an approved list, and it
+process. Licences could be checked against an approved list, and it
 may even be possible to automate SourceRank checks against the
 [Libraries.io API](https://libraries.io/api), though this may be
 slow. There may also be existing CI tools that we could use that
