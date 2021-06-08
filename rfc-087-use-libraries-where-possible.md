@@ -107,8 +107,8 @@ probably be considered unreliable.
 
 As well as SourceRank measured factors, developers MAY also wish to look at:
 
-* Do the maintainers respond to issues?
-* Are there long-running open PRs?
+- Do the maintainers respond to issues?
+- Are there long-running open PRs?
 
 Developers need only make this quality assessment on _direct_ dependencies;
 it is not an effective use of time to check the quality of dependencies of
