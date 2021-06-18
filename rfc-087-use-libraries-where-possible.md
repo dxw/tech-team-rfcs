@@ -114,6 +114,10 @@ Developers need only make this quality assessment on _direct_ dependencies;
 it is not an effective use of time to check the quality of dependencies of
 our dependencies, unless there is reason to suspect problems.
 
+Another good proxy measure is who else uses the package. For instance, if
+it's used by an established system like Rails, then that's a good indicator 
+of its quality.
+
 ## Next steps
 
 We could look at automating these checks as part of our build
@@ -123,6 +127,6 @@ may even be possible to automate SourceRank checks against the
 slow. There may also be existing CI tools that we could use that
 will perform these functions for us.
 
-We also create a list of packages we've reviewed in detail (including
+We could also create a list of packages we've reviewed in detail (including
 version and date checked), to minimize the repeated work in doing
 these checks.
