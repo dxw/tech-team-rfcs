@@ -7,7 +7,7 @@
     "check:prs": "node ./utils/check-prs.js"
   },
   "devDependencies": {
-    "@octokit/rest": "^18.2.1",
+    "@octokit/rest": "^18.7.1",
     "husky": "^4.3.8",
     "remark-cli": "^9.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",
