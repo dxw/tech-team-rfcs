@@ -72,5 +72,4 @@ instructions for how to update it when making contributions and releasing
 projects built from it, and a prompt in the pull request template.
 
 [keep a changelog 1.0.0]: https://keepachangelog.com/en/1.0.0/
-
 [rails-template]: https://github.com/dxw/rails-template

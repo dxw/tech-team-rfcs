@@ -155,3 +155,16 @@ To run the linter locally:
 ```sh
 npm run lint
 ```
+
+To automatically fix most linting issues:
+
+```sh
+npm run lint:fix
+```
+
+This repository is set up to run the linter automatically on pull requests and
+fix any issues it can, so you usually won't need to run it yourself.
+
+If you notice the linter doing unexpected things to your formatting, it's
+usually a sign that your original formatting wouldn't have been parsed as you
+intended it to be.

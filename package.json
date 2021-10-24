@@ -2,9 +2,11 @@
   "name": "tech-team-rfcs",
   "private": true,
   "scripts": {
-    "lint": "remark --frail ."
+    "lint": "remark --frail . && prettier --ignore-unknown --check '**/*'",
+    "lint:fix": "remark --frail . && prettier --ignore-unknown --write '**/*'"
   },
   "devDependencies": {
+    "prettier": "^2.4.1",
     "remark-cli": "^10.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",
     "remark-validate-links": "^11.0.2"

@@ -23,13 +23,13 @@ standards to the community leaders.
 
 ## Proposal
 
-We should adopt a code of conduct, so that people know how they can expect to
-be treated when they interact with our projects – hopefully making them feel
-safe to do so.
+We should adopt a code of conduct, so that people know how they can expect to be
+treated when they interact with our projects – hopefully making them feel safe
+to do so.
 
-The most common code of conduct is the [Contributor
-Covenant](https://www.contributor-covenant.org/). It pledges to make
-participation in an open source project a harrassment-free experience for
+The most common code of conduct is the
+[Contributor Covenant](https://www.contributor-covenant.org/). It pledges to
+make participation in an open source project a harrassment-free experience for
 everyone. It explains:
 
 - the standards of behaviour which are expected of everyone who interacts with
@@ -39,12 +39,13 @@ everyone. It explains:
   standards
 
 We want to limit the scope of who finds out about a code of conduct report, to
-maintain privacy. So we’ll limit it to the Chief Technology Officer and
-Managing Director.
+maintain privacy. So we’ll limit it to the Chief Technology Officer and Managing
+Director.
 
 ### Guidelines
 
-All public repositories in the `dxw` organisation MUST contain a `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` file.
+All public repositories in the `dxw` organisation MUST contain a
+`CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` file.
 
 The `CONTRIBUTING.md` file:
 
@@ -54,7 +55,8 @@ The `CONTRIBUTING.md` file:
 
 The `CODE_OF_CONDUCT.md` file:
 
-- SHOULD be a copy of the [Markdown version of the Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
+- SHOULD be a copy of the
+  [Markdown version of the Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 - SHOULD be modified to include the following information about contact methods:
   > Instances of abusive, harassing, or otherwise unacceptable behavior may be
   > reported to dxw’s Chief Technology Officer at code-of-conduct@dxw.com. If a
@@ -71,8 +73,8 @@ to understand whether they:
 - can do this privately
 - want to take on the responsibility of enforcing the code of conduct
 
-dxw SHOULD NOT take on the responsibility of enforcing the Code of Conduct for
-a client project.
+dxw SHOULD NOT take on the responsibility of enforcing the Code of Conduct for a
+client project.
 
 The Chief Technology Officer or Managing Director MUST take action when they
 receive a violation report. At a minimum, this MUST include responding to the
@@ -81,20 +83,20 @@ enforcement procedures as they develop.
 
 ## Concerns
 
-Adding a code of conduct might suggest that we’re actively seeking
-contributions from outside dxw, even though sometimes we aren’t. Sometimes we
-create software which we’re happy to share with the world, but which we don’t
-have the time to review contributions for or which we don’t want to grow beyond
-a specific use case. And on client projects, we aren’t paid to review code
-which isn’t to the client’s needs.
+Adding a code of conduct might suggest that we’re actively seeking contributions
+from outside dxw, even though sometimes we aren’t. Sometimes we create software
+which we’re happy to share with the world, but which we don’t have the time to
+review contributions for or which we don’t want to grow beyond a specific use
+case. And on client projects, we aren’t paid to review code which isn’t to the
+client’s needs.
 
 This should not prevent us from having a code of conduct – it’s a pretty
 uncontroversial baseline of decent conduct and doesn’t guarantee that we’ll
-review or accept people’s work.  As long as our `CONTRIBUTING.md` is clear
-about whether the project is seeking contributions, and whether we’re likely to
-accept them, then we’re fine. We might like to reply to people’s contributions
-and explain why we’re not going to accept them, even if it takes up a little of
-our time.
+review or accept people’s work. As long as our `CONTRIBUTING.md` is clear about
+whether the project is seeking contributions, and whether we’re likely to accept
+them, then we’re fine. We might like to reply to people’s contributions and
+explain why we’re not going to accept them, even if it takes up a little of our
+time.
 
 ## Next steps
 
@@ -111,15 +113,14 @@ our time.
 ## Research
 
 - [GDS’s usage of the Contributor Covenant](https://github.com/search?q=org%3Aalphagov+contributor+covenant&type=Code)
-- [GDS’s guidance on reviewing external pull 
-  requests](https://github.com/alphagov/styleguides/blob/master/pull-requests.md#reviewing-external-pull-requests)
+- [GDS’s guidance on reviewing external pull requests](https://github.com/alphagov/styleguides/blob/master/pull-requests.md#reviewing-external-pull-requests)
 - code.gov has a [single repository](https://github.com/GSA/code-gov/) where
   they keep the code of conduct for all their projects
 
 Contact mechanisms for complaints:
 
-- Large organisations like Mozilla have a [dedicated
-  service](https://www.mozilla.org/en-US/about/governance/policies/participation/reporting/)
+- Large organisations like Mozilla have a
+  [dedicated service](https://www.mozilla.org/en-US/about/governance/policies/participation/reporting/)
   – they use an organisation called Convercent for their hotline
 - In GDS, they give email addresses, e.g. individuals or
   alphagov-code-of-conduct@digital-cabinet-office.gov.uk

@@ -2,9 +2,10 @@
 
 ## Summary
 
-We should adopt the [Scripts To Rule Them
-All](https://github.com/github/scripts-to-rule-them-all) pattern which GitHub
-uses to standardise the names of common scripts between various applications.
+We should adopt the
+[Scripts To Rule Them All](https://github.com/github/scripts-to-rule-them-all)
+pattern which GitHub uses to standardise the names of common scripts between
+various applications.
 
 Standardising the names, locations and behaviour of these scripts makes the
 experience of developing, testing and running applications more consistent.
@@ -41,5 +42,5 @@ necessary configuration and run tests on a continuous integration server.
 
 ## Next steps
 
-- Add examples of all scripts to the 
+- Add examples of all scripts to the
   [rails-template](https://github.com/dxw/rails-template).
