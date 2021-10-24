@@ -1,5 +1,5 @@
 {
-  "name": "developer-rfcs",
+  "name": "tech-team-rfcs",
   "private": true,
   "scripts": {
     "lint": "remark --frail ."
