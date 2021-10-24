@@ -155,13 +155,3 @@ To run the linter locally:
 ```sh
 npm run lint
 ```
-
-To automatically fix some linting issues:
-
-```sh
-npm run lint:fix
-```
-
-This repository is set up to run the linter automatically as a pre-commit step.
-If for some reason you need to override that, add `--no-verify` as a flag to
-`git commit`. You probably shouldn't ever have to do this.

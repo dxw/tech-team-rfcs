@@ -2,19 +2,11 @@
   "name": "developer-rfcs",
   "private": true,
   "scripts": {
-    "lint": "remark --frail .",
-    "lint:fix": "remark --output --frail ."
+    "lint": "remark --frail ."
   },
   "devDependencies": {
-    "husky": "^4.3.8",
     "remark-cli": "^10.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",
-    "remark-preset-lint-markdown-style-guide": "^4.0.0",
     "remark-validate-links": "^11.0.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:fix"
-    }
   }
 }
