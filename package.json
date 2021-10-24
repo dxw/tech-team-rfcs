@@ -3,11 +3,9 @@
   "private": true,
   "scripts": {
     "lint": "remark --frail .",
-    "lint:fix": "remark --output --frail .",
-    "check:prs": "node ./utils/check-prs.js"
+    "lint:fix": "remark --output --frail ."
   },
   "devDependencies": {
-    "@octokit/rest": "^18.12.0",
     "husky": "^4.3.8",
     "remark-cli": "^10.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",
