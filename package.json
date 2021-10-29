@@ -11,7 +11,7 @@
     "husky": "^4.3.8",
     "remark-cli": "^10.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",
-    "remark-preset-lint-markdown-style-guide": "^4.0.0",
+    "remark-preset-lint-markdown-style-guide": "^5.1.1",
     "remark-validate-links": "^11.0.2"
   },
   "husky": {
