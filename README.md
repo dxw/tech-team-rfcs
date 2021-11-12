@@ -133,23 +133,7 @@ why we do the things we do. This understanding will allow us to make more
 informed decisions in the future and help us empathise with the decisions we
 have already made.
 
-## Minimum proposal age
-
-As set out in the process above, a proposal must be open for at least 14 days
-before it can be merged regardless of the number of approvals that have been
-made.
-
-To help us do this, we have a
-[Github Action](https://github.com/dxw/tech-team-rfcs/actions?query=workflow%3A%22Check+pull+request+age%22)
-that runs every day and each time a pull request is added. This action checks
-how old each pull request is. If it is less than 14 days old, it applies a
-pending status to the pull request. Otherwise, it applies a success status.
-
-If the pull request is related to tooling and does not require the 14 day rule
-to be applied to it, a user can apply a `tooling` label to the pull request,
-which tells the Github Action script to ignore this particular PR.
-
-## Writing a proposal
+## Linting
 
 ### Language and style
 
@@ -172,12 +156,15 @@ To run the linter locally:
 npm run lint
 ```
 
-To automatically fix some linting issues:
+To automatically fix most linting issues:
 
 ```sh
 npm run lint:fix
 ```
 
-This repository is set up to run the linter automatically as a pre-commit step.
-If for some reason you need to override that, add `--no-verify` as a flag to
-`git commit`. You probably shouldn't ever have to do this.
+This repository is set up to run the linter automatically on pull requests and
+fix any issues it can, so you usually won't need to run it yourself.
+
+If you notice the linter doing unexpected things to your formatting, it's
+usually a sign that your original formatting wouldn't have been parsed as you
+intended it to be.
