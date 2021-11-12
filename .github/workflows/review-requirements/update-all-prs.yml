@@ -1,7 +1,7 @@
 on:
   schedule:
-    # Every 10 minutes
-    cron: "*/10 * * * *"
+    # Every hour during working hours(ish)
+    cron: "0 9-19 * * mon-fri"
   workflow_dispatch:
 
 jobs:
