@@ -1,88 +1,166 @@
-# dxw Request For Comments
+# dxw's technology team's requests for comment (RFCs)
 
-dxw staff use this repository as a forum to make and document technical
-decisions.
+dxw's technology team uses this repository as a forum to make and document
+technical decisions.
 
-## Process
+## How it works...
 
-1. Create a new branch on this repo and copy `rfc-000-template.md` to
-   `rfc-000-my-proposal.md` and edit.
-1. Include any images etc in a separate directory named `rfc-000` and link to
-   them.
-1. Make a draft Pull Request (PR) for your branch.
-1. Rename your file and directory with the number of the PR and push as a new
-   commits.
-1. Mark your PR as "Ready for review".
-1. Post a link to your PR in #tech-team on Slack. @mention teams or individuals
-   in the PR description if you want particular attention from them.
-1. We discuss proposals using both inline comments against the RFC document and
-   the general PR comments section. Non-technical staff will need to create a
-   free Github account in order to comment.
-1. As changes are requested and agreed in comments, make the changes in your RFC
-   and push them as new commits.
-1. Stay active in the discussion and encourage and remind other relevant people
-   to participate. If you're unsure who should be involved in a discussion, ask
-   a senior developer or CTO. If you start an RFC it's up to you to push it
-   through the process and engage people.
-1. After notifications are sent there is a minimum 14 day period where it must
-   remain open for comments before consensus can be made. Once this period has
-   passed we try to reach consensus between active participants
-1. Once consensus is reached and approvals given using the Github review system,
-   the PR can be merged.
-1. When an RFC is accepted, ensure the dxw tech team is made aware of it via
-   Slack.
-1. An RFC can be rejected. This can happen if a consensus isn't reached, or
-   people agree rejecting it is the right thing to do. In this case the PR
-   should be closed with a suitable comment.
+### ...for a proposer
 
-## Voting with the GitHub review system
+1. Create a new branch named `rfc/my-proposal-title`
+1. Make a copy of `rfc-000-template.md` renamed `rfc-000-my-proposal-title.md`
+1. Write your proposal
+   - Include any images or supporting documents in a separate directory named
+     `rfc-000` and link to them from the proposal
+1. When you're ready, push your branch and create a **draft** Pull Request (PR)
+   for it
+1. Rename your file (and directory if you created one) with the number of the PR
+   and push an amended commit
+1. When you are satisfied, mark your PR as **ready for review**
+   - Assign some reviewers if there's anyone you think your proposal might be
+     particularly relevant to
+1. Post a link to your PR in #dxw-tech-team on Slack, @mentioning anyone you
+   want particular attention from
+1. As comments and questions come in, respond to them in the PR comments to keep
+   a record of the discussion
+1. If changes are agreed, make them in your proposal and push them as new
+   commits to keep a record of the development of the proposal
+   - For trivial changes like fixing typos, amend the commits that introduced
+     them instead
+1. No sooner than 14 days after broadcasting your proposal in Slack, if
+   consensus has been reached through GitHub reviews, and at least 3 people have
+   voted to approve without any outstanding votes to reject, merge the PR and
+   post a link to the accepted proposal in #dxw-tech-team on Slack to let
+   everyone know that it's now in place
+   - If the consensus is to reject the proposal, or a consensus can't be
+     reached, close the PR with a comment explaining the resolution
+1. If a proposal has been open for more than 60 days, consider closing it as
+   stale
 
-Given that there are a number of
-[tools available to us when using Pull Requests](https://help.github.com/en/articles/about-pull-request-reviews)
-to facilitate this process we should be explicit about how we use each to
-communicate in order that it is clear how we can reach consensus.
+As the proposer, you are responsible for gathering consensus on your proposal.
+This means reaching out to others for comment, resolving issues, and reminding
+people of your proposal's existence.
+
+Once a proposal is accepted, it becomes everyone's responsibility to put it into
+action and live by it.
+
+### ...for a reviewer
+
+When a proposal PR is marked as **ready for review**, anyone is welcome to
+contribute to the discussion. Review the proposal and any existing comments and
+make inline comments on the document or general comments in the PR. To vote on
+the proposal, [create a GitHub review](#voting-with-a-github-review).
+
+## Voting with a GitHub review
+
+We use GitHub's review system to send clear signals of individual reviewers'
+stances on the proposal. Each type of review has a different meaning, as
+follows.
+
+Note that emoji and reactions do not indicate preferences or votes.
 
 ### Comment
 
-- Not indicative of preference and can be used for any questions, suggestions
-  and typos
+A **comment** review is not a vote. It can be used for asking questions or
+making suggestions. It's also suitable for correcting typos or other minor
+change suggestions that don't materially alter the proposal.
 
 ### Approve
 
-- This decision SHOULD be accepted
-- A description is optional
+By creating a **approve** review, a reviewer is saying the proposal SHOULD be
+accepted. It is not necessary to add a comment to an approval if there's nothing
+to add. It is also acceptable to approve with optional suggestions as with a
+**comment** review.
 
 ### Request changes
 
-- This decision SHOULD NOT be accepted unless the given consequences are
-  acceptable
-- A description is required and please be prepared to respond to further
-  comments
+By creating a **request changes** review, a reviewer is saying the proposal
+SHOULD NOT be accepted as written unless the accompanying commented consequences
+are acceptable. A review of this kind MUST be accompanied by an explanation and
+the reviewer SHOULD be prepared to respond to further comments.
 
-### Emoji/reactions
+## Our principles
 
-- Not indicative of preference
+### 1. We make decisions together
+
+Everyone is informed of proposals and is given a fair amount of time to join the
+discussion.
+
+Decisions are not made alone. We require at least 3 approvals before a proposal
+can be accepted.
+
+### 2. Reaching consensus shouldn't be a chore
+
+We understand that not everyone in the team has the time, headspace, expertise,
+or opinions to be involved in every decision. Provided those decisions are
+communicated more widely, consensus should be possible between those actively
+involved in the discussion.
+
+### 3. Some guidance is better than none
+
+If consensus isn't clear, we default to no action, but sometimes we don't have a
+status quo to fall back on. In that case, we believe that some guidance is
+nearly always better than none.
+
+### 4. Standards are defaults
+
+The decisions we make and record here are defaults. In many cases, they are
+intended as guidance and not constraints. If there's a reason to depart from
+them, as long as it's documented and justified, we should be able to adapt to
+specific situations and needs.
+
+### 5. Authors are responsible for their proposals
+
+The people making proposals tend to be the people most invested in their
+outcome. It's up to them to get a decision made by engaging with and encouraging
+others to get involved in discussions.
+
+### 6. We close stale proposals
+
+If a proposal is inactive and doesn't have the momentum to reach a consensus, we
+close it. Proposals that aren't moving probably aren't important or are too
+contentious to make a decision about. This doesn't stop them from being reopened
+at a later time.
+
+By closing stale proposals, we keep the discussion focused on current issues,
+relevant to the team now.
+
+### 7. We document our rationale
+
+These RFCs document our decisions and the discussions that led to them being
+made. This helps our future selves and new people joining our team understand
+why we do the things we do. This understanding will allow us to make more
+informed decisions in the future and help us empathise with the decisions we
+have already made.
 
 ## Minimum proposal age
 
-As set out in the process above, a proposal must be open for at least 14
-days before it can be merged, regardless of the number of approvals that
-have been made.
+As set out in the process above, a proposal must be open for at least 14 days
+before it can be merged regardless of the number of approvals that have been
+made.
 
-To help us do this, we have a [Github Action](https://github.com/dxw/tech-team-rfcs/actions?query=workflow%3A%22Check+pull+request+age%22)
-that runs every day and each time a pull request it added. This action
-checks how old each pull request is. If it is less than 14 days old,
-it applies a pending status to the pull request, otherwise it applies
-a success status.
+To help us do this, we have a
+[Github Action](https://github.com/dxw/tech-team-rfcs/actions?query=workflow%3A%22Check+pull+request+age%22)
+that runs every day and each time a pull request is added. This action checks
+how old each pull request is. If it is less than 14 days old, it applies a
+pending status to the pull request. Otherwise, it applies a success status.
 
-If the pull request is related to tooling, and does not require the 14
-day rule to be applied to it, a user can apply a `tooling` label to the
-pull request, which tells the Github Action script to ignore this
-particular PR.
+If the pull request is related to tooling and does not require the 14 day rule
+to be applied to it, a user can apply a `tooling` label to the pull request,
+which tells the Github Action script to ignore this particular PR.
 
-## Linting
+## Writing a proposal
 
-First install dependencies:
+### Language and style
+
+We use the
+[IETF's RFC best practices style guide](https://www.ietf.org/rfc/rfc2119.txt)
+for our RFCs to help make sure we're consistent and clear in our language and
+intent.
+
+### Running the linter
+
+First, install dependencies:
 
 ```sh
 npm install
@@ -103,34 +181,3 @@ npm run lint:fix
 This repository is set up to run the linter automatically as a pre-commit step.
 If for some reason you need to override that, add `--no-verify` as a flag to
 `git commit`. You probably shouldn't ever have to do this.
-
-## Principles
-
-In order to decide what system to use we have to consider what we as a team
-value, and in turn what a good process looks like.
-
-1. we make decisions together
-   - everyone is informed of proposals and is given a fair amount of time in
-     order to join the discussion
-   - decisions are not made alone, a minimum consensus of 3 is needed
-1. reaching consensus is not a chore
-   - we understand that not everyone in the team will have time, headspace or
-     opinions to be involved in every decision. Provided changes are
-     communicated, consensus should be possible between active parties
-   - if consensus isn't clear, we should default to no action unless we have no
-     preexisting decision on the topic in which case some guidance is nearly
-     always better than none
-1. standards are a set of defaults
-1. authors are responsible for their proposals
-   - this ensures it doesn't fall as a responsibility on any individual
-   - engage and encourage others to join discussions (bring up proposals at tech
-     team forums)
-1. management of stale proposals should be clear and straightforward
-   - the conditions under which a proposal should be considered inactive are
-     clear, to reduce conflict and simplify decisions
-   - proposals that are considered inactive should be closed promptly, so that
-     only relevant topics for the team to review are listed
-1. the rationale for decisions is documented
-   - help future members of the team understand why decisions were made. This
-     understanding will allow us to make more informed decisions and increase
-     our empathy for past decisions
