@@ -36,9 +36,9 @@ noise of alerts for development NPM packages.
   production vulnerabilities for all forms of dependency management used
   anywhere in the repo (e.g. NPM, Yarn, Composer)
 - Dependabot MUST be configured to alert about, and open PRs to address,
-  vulnerabilities in any GitHub Actions the repo uses
-- Dependabot SHOULD be configured to alert about, and open PRs to address,
   development Composer vulnerabilities for any `composer.json` files in the repo
+- Dependabot MUST be configured to alert about, and open PRs to address,
+  vulnerabilities in any GitHub Actions the repo uses
 - Dependabot SHOULD be configured to suppress alerts and PRs for development
   NPM-based dependencies, unless there is a compelling reason to do otherwise
 
