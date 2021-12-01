@@ -90,11 +90,3 @@ We MAY use Docker in development environments.
 If there are compelling reasons not to use Docker on a particular project we MAY
 choose not to containerise, however an Architectural Decision Record (ADR) MUST
 be added to the project to explain and document why.
-
-## Next steps
-
-- Add a Dockerfile to the
-  [rails-template](https://github.com/dxw/rails-template)
-- Edit the GitHub action script that runs CI in the
-  [rails-template](https://github.com/dxw/rails-template) to build and test with
-  Docker containers
