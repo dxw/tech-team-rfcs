@@ -26,7 +26,7 @@ Applications SHOULD use ERB as their templating language by default.
 
 ## Next steps
 
-- Investigate linting for ERB templates
-  [erb-lint?](https://github.com/Shopify/erb-lint)
-- Remove Haml from the
-  [dxw rails-template](https://github.com/dxw/rails-template)
+- [ ] Investigate linting for ERB templates
+      [erb-lint?](https://github.com/Shopify/erb-lint); see [#147](https://github.com/dxw/tech-team-rfcs/issues/147).
+- [x] Remove Haml from the
+      [dxw rails-template](https://github.com/dxw/rails-template)
