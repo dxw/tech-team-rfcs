@@ -16,6 +16,7 @@ language to help clarify your intentions.
 
 ## Next steps
 
-Describe any changes to code or documentation that will need to happen if this
-RFC is accepted. For example, this might be modifying the playbook or a template
-project.
+- [ ] Describe any changes to code or documentation that will
+      need to happen if this RFC is accepted. For example, this
+      might be modifying the playbook or a template project.
+      Include checkboxes so we can mark the actions as completed later.
