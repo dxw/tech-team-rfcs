@@ -42,5 +42,5 @@ necessary configuration and run tests on a continuous integration server.
 
 ## Next steps
 
-- Add examples of all scripts to the
-  [rails-template](https://github.com/dxw/rails-template).
+- [x] Add examples of all scripts to the
+      [rails-template](https://github.com/dxw/rails-template).
