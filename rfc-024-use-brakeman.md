@@ -40,8 +40,8 @@ project to explain and document why.
 
 ## Next steps
 
-- Add Brakeman gem to the
-  [rails-template](https://github.com/dxw/rails-template)
-- Edit the GitHub action script that runs CI in the
-  [rails-template](https://github.com/dxw/rails-template) to run Brakeman as
-  part of the CI build, and fail the build if there are any warnings
+- [x] Add Brakeman gem to the
+      [rails-template](https://github.com/dxw/rails-template)
+- [x] Edit the GitHub action script that runs CI in the
+      [rails-template](https://github.com/dxw/rails-template) to run Brakeman as
+      part of the CI build, and fail the build if there are any warnings
