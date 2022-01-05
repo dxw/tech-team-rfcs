@@ -64,8 +64,8 @@ SHOULD include a blank template changelog for any projects building from them.
 
 ## Next steps
 
-- [x] The playbook MUST be updated to document the details of this proposal, including
-      details on how to maintain a changelog.
+- [x] The playbook MUST be updated to document the details of this proposal,
+      including details on how to maintain a changelog.
 
 - [x] A template changelog SHOULD be added to the [rails-template][], along with
       instructions for how to update it when making contributions and releasing
