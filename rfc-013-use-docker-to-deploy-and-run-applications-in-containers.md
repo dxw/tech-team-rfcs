@@ -96,5 +96,5 @@ be added to the project to explain and document why.
 - [x] Add a Dockerfile to the
       [rails-template](https://github.com/dxw/rails-template)
 - [x] Edit the GitHub action script that runs CI in the
-      [rails-template](https://github.com/dxw/rails-template) to build and test with
-      Docker containers
+      [rails-template](https://github.com/dxw/rails-template) to build and test
+      with Docker containers
