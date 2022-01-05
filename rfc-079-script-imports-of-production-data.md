@@ -65,9 +65,9 @@ read-only modes (e.g. the `--sandbox` flag for a Rails console) where available.
 
 ## Next steps
 
-- Ensure all projects with database dump in their workflow that are currently
-  under active development or under a support contract have scripts to pull data
-  from production.
-- Ensure all projects currently under active development or under a support
-  contract have documentation for fetching/interacting with production data in
-  the README or support documentation.
+- [ ] Ensure all projects with database dump in their workflow that are currently
+      under active development or under a support contract have scripts to pull data
+      from production; see [#149](https://github.com/dxw/tech-team-rfcs/issues/149).
+- [ ] Ensure all projects currently under active development or under a support
+      contract have documentation for fetching/interacting with production data in
+      the README or support documentation; see [#149](https://github.com/dxw/tech-team-rfcs/issues/149).
