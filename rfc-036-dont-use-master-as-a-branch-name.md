@@ -36,8 +36,8 @@ git config --global init.defaultBranch main
 
 ## Next steps
 
-- Change all existing internal repositories with single "main" branches to
-  rename `master` to `main`
-- Change all template repositories to rename `master` to `main`
-- Open another RFC to settle on naming conventions for repositories with
-  multiple "main" branches (such as `master` and `develop`)
+- [ ] Change all existing internal repositories with single "main" branches to
+      rename `master` to `main`; see [#149](https://github.com/dxw/tech-team-rfcs/issues/149)
+- [x] Change all template repositories to rename `master` to `main`
+- [ ] Open another RFC to settle on naming conventions for repositories with
+      multiple "main" branches (such as `master` and `develop`)
