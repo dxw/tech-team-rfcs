@@ -12,7 +12,7 @@ jobs:
 
       - id: select-pull-requests
         name: Select PRs older than 14 days
-        uses: actions/github-script@v5.0.0
+        uses: actions/github-script@v5.1.0
         with:
           script: |
             const pullRequests = require("./.github/actions/pull-requests");
@@ -24,7 +24,7 @@ jobs:
 
       - if: steps.select-pull-requests.outputs.result
         name: Unlabel old enough PRs as "new"
-        uses: actions/github-script@v5.0.0
+        uses: actions/github-script@v5.1.0
         with:
           script: |
             const pullRequests = require("./.github/actions/pull-requests");
