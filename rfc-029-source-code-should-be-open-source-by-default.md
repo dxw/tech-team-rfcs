@@ -127,10 +127,13 @@ observable. It doesn’t imply we’re always exemplary.
 
 ## Next steps
 
-- Go through our public GitHub repos to make sure they have a `LICENCE`
-- Go through our private GitHub repos and either make them public or add a
-  `WHY_PRIVATE.md`
-- Start a conversation about which repositories we’re proud of, and pin them to
-  dxw’s GitHub page
-- Start a conversation about making GovPress repositories public, possibly
-  starting with moving them to GitHub
+- [ ] Go through our public GitHub repos to make sure they have a `LICENCE`; see
+      [#149](https://github.com/dxw/tech-team-rfcs/issues/149)
+- [ ] Go through our private GitHub repos and either make them public or add a
+      `WHY_PRIVATE.md`; see
+      [#149](https://github.com/dxw/tech-team-rfcs/issues/149)
+- [ ] Start a conversation about which repositories we’re proud of, and pin them
+      to dxw’s GitHub page; see
+      [#151](https://github.com/dxw/tech-team-rfcs/issues/151)
+- [ ] Start a conversation about making GovPress repositories public, possibly
+      starting with moving them to GitHub

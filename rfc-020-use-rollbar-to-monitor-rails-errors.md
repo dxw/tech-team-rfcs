@@ -26,5 +26,5 @@ in an ADR within the project itself.
 
 ## Next steps
 
-Add Rollbar to the [rails-template](https://github.com/dxw/rails-template)
-repository.
+- [x] Add Rollbar to the [rails-template](https://github.com/dxw/rails-template)
+      repository.

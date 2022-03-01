@@ -100,15 +100,20 @@ time.
 
 ## Next steps
 
-- Set up an email contact code-of-conduct@dxw.com that goes to Dominic Baggott
-- Set up an email contact code-of-conduct-md@dxw.com that goes to David Mann
-- Confirm that Dave and Dom are happy to take this role
-- Apply the guidance to our existing GitHub projects
-- Add ourselves to the list of Contributor Covenant adopters – see
-  [guidance](https://github.com/ContributorCovenant/contributor_covenant#adding-a-project-to-the-list-of-adopters)
-- Create fallback CONTRIBUTING.md and CODE_OF_CONDUCT.md files for the dxw
-  GitHub organisation – see
-  [instructions](https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file)
+- [x] Set up an email contact code-of-conduct@dxw.com that goes to Dominic
+      Baggott; see [#148](https://github.com/dxw/tech-team-rfcs/issues/148)
+- [x] Set up an email contact code-of-conduct-md@dxw.com that goes to David
+      Mann; see [#148](https://github.com/dxw/tech-team-rfcs/issues/148)
+- [x] Confirm that Dave and Dom are happy to take this role; see
+      [#148](https://github.com/dxw/tech-team-rfcs/issues/148)
+- [ ] Apply the guidance to our existing GitHub projects; see
+      [#149](https://github.com/dxw/tech-team-rfcs/issues/149)
+- [x] Add ourselves to the list of Contributor Covenant adopters – see
+      [guidance](https://github.com/ContributorCovenant/contributor_covenant#adding-a-project-to-the-list-of-adopters);
+      see [#150](https://github.com/dxw/tech-team-rfcs/issues/150)
+- [x] Create fallback CONTRIBUTING.md and CODE_OF_CONDUCT.md files for the dxw
+      GitHub organisation – see
+      [instructions](https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file)
 
 ## Research
 
