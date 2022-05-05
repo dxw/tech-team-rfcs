@@ -3,6 +3,7 @@ on:
     types:
       - labeled
       - unlabeled
+      - synchronize
 
 jobs:
   check-for-new:
