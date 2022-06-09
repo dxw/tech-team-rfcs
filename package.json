@@ -8,7 +8,6 @@
   "devDependencies": {
     "prettier": "^2.6.2",
     "remark-cli": "^10.0.0",
-    "remark-lint-no-dead-urls": "^1.1.0",
     "remark-validate-links": "^11.0.2"
   }
 }
