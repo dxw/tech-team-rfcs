@@ -3,7 +3,7 @@
 dxw's technology team uses this repository as a forum to make and document
 technical decisions.
 
-## How it works...
+## How it works…
 
 ### ...for a proposer
 
