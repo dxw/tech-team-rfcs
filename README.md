@@ -19,8 +19,10 @@ technical decisions.
 1. When you are satisfied, mark your PR as **ready for review**
    - Assign some reviewers if there's anyone you think your proposal might be
      particularly relevant to
-1. Post a link to your PR in #dxw-tech-team on Slack, @mentioning anyone you
-   want particular attention from
+1. Post a link to your PR in `#dxw-tech-team` or `#dxw-govpress-team` on Slack,
+   @mentioning anyone you want particular attention from. Some RFCs will
+   naturally fall more within the remit of GovPress, Ops or Delivery+, but if
+   you are unsure which channel to use, please post in both channels
 1. As comments and questions come in, respond to them in the PR comments to keep
    a record of the discussion
 1. If changes are agreed, make them in your proposal and push them as new
