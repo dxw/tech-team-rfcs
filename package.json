@@ -6,7 +6,7 @@
     "lint:fix": "remark --frail . && prettier --ignore-unknown --write '**/*'"
   },
   "devDependencies": {
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "remark-cli": "^10.0.0",
     "remark-validate-links": "^12.1.0"
   }
