@@ -14,9 +14,9 @@ that our code is well maintained.
 GitHub has 260 repositories that are not archived and not forked from elsewhere,
 151 of which are public. It is easy for new PRs and issues to be lost in the
 noise of notifications. For maintainers, it can be difficult to keep up with
-changes in these repositories, especially for internal code which takes a lower priority
-than client products. For developers, it can be difficult to identify someone to
-review code changes and respond to issues.
+changes in these repositories, especially for internal code which takes a lower
+priority than client products. For developers, it can be difficult to identify
+someone to review code changes and respond to issues.
 
 ## Proposal
 
