@@ -3,6 +3,27 @@
 dxw's technology team uses this repository as a forum to make and document
 technical decisions.
 
+## Current RFCs
+
+Our currently adopted RFCs are as follows:
+
+- [Use Docker to deploy and run our applications in containers](rfc-013-use-docker-to-deploy-and-run-applications-in-containers.md)
+- [Our decision making process is public](rfc-018-our-decision-making-process-is-public.md)
+- [Use changelogs to track changes](rfc-019-use-changelogs-to-track-changes.md)
+- [Use Rollbar to monitor application errors for Rails projects](rfc-020-use-rollbar-to-monitor-rails-errors.md)
+- [Use Auth0 as the default auth provider](rfc-021-use-auth0-as-the-default-auth-provider.md)
+- [Use ERB by default in our Rails projects](rfc-022-use-erb-as-default-templating-language.md)
+- [Use the "Scripts To Rule Them All" pattern for common tasks](rfc-023-use-scripts-to-rule-them-all.md)
+- [Use Brakeman on all Rails projects](rfc-024-use-brakeman.md)
+- [Adopt a code of conduct for public repositories](rfc-028-adopt-a-code-of-conduct.md)
+- [Source code should be open source by default](rfc-029-source-code-should-be-open-source-by-default.md)
+- [Use standard linting tools across all of our projects](rfc-035-use-standard-linting-tools-across-all-our-projects.md)
+- [Don't use `master` as a branch name](rfc-036-dont-use-master-as-a-branch-name.md)
+- [Script imports of production data](rfc-079-script-imports-of-production-data.md)
+- [Use Existing Libraries Where Possible](rfc-087-use-libraries-where-possible.md)
+- [Optimise Dependabot rules in GovPress repos](rfc-088-optimise-dependabot-config-files-in-govpress-repos.md)
+- [Testing our work](rfc-173-testing-our-work.md)
+
 ## How it works...
 
 ### ...for a proposer
@@ -16,6 +37,9 @@ technical decisions.
    for it
 1. Rename your file (and directory if you created one) with the number of the PR
    and push an amended commit
+1. Update `README.md` to include the title and link to the RFC file at the
+   bottom of the list. If your RFC supersedes or deprecates a previous one,
+   remove it from the list.
 1. When you are satisfied, mark your PR as **ready for review**
    - Assign some reviewers if there's anyone you think your proposal might be
      particularly relevant to
