@@ -1,4 +1,4 @@
-# Use Existing Libraries Where Possible
+# Use existing libraries where possible
 
 ## Summary
 
