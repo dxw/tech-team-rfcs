@@ -1,4 +1,4 @@
-# Use standard linting tools across all of our projects
+# Use linting tools across all of our projects
 
 ## Summary
 
@@ -15,14 +15,20 @@ style in code reviews, which can cause conflict and slow down code review.
 ## Proposal
 
 Where available, all new dxw-owned or maintained repositories SHOULD use an
-opinionated code linter and formatter to make sure code meets a standard style.
-Examples of this include (but are not limited to):
+opinionated code linter and formatter to make sure code meets a consistent
+style. Examples of this include (but are not limited to):
 
-- [Standard.rb](https://github.com/testdouble/standard)
-- [Standard for Javascript](https://github.com/standard/standard)
-- [Standard for Typescript](https://github.com/standard/ts-standard)
-- [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-- [Black (for Python)](https://github.com/psf/black)
+- Ruby: [Standard Ruby](https://github.com/testdouble/standard)
+- JavaScript/TypeScript:
+  - ESLint:
+    [JS](https://github.com/eslint/eslint)/[TS](https://github.com/typescript-eslint/typescript-eslint)
+  - [Prettier](https://github.com/prettier/prettier)
+  - Standard:
+    [JS](https://github.com/standard/standard)/[TS](https://github.com/standard/ts-standard)
+- PHP: [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+- Python:
+  - [Black](https://github.com/psf/black)
+  - [djLint](https://github.com/Riverside-Healthcare/djLint)
 
 When a linter is installed, each package MUST run a check using the linting tool
 as part of the default CI build. We MUST ensure a CI build fails if the linting

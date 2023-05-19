@@ -31,7 +31,7 @@ or TypeScript, which are subcategorised for ease of reference.
 
 - [Use Docker to deploy and run our applications in containers][013]
 - [Use Auth0 as the default auth provider][021]
-- [Use standard linting tools across all of our projects][035]
+- [Use linting tools across all of our projects][035]
 - [Use existing libraries where possible][087]
 
 #### GovPress
@@ -230,7 +230,7 @@ intended it to be.
 [024]: tools-and-technology/rails/rfc-024-use-brakeman.md
 [028]: ways-of-working/rfc-028-adopt-a-code-of-conduct.md
 [029]: ways-of-working/rfc-029-source-code-should-be-open-source-by-default.md
-[035]: tools-and-technology/rfc-035-use-standard-linting-tools-across-all-our-projects.md
+[035]: tools-and-technology/rfc-035-use-linting-tools-across-all-our-projects.md
 [036]: ways-of-working/rfc-036-dont-use-master-as-a-branch-name.md
 [079]: ways-of-working/rfc-079-script-imports-of-production-data.md
 [087]: tools-and-technology/rfc-087-use-libraries-where-possible.md
