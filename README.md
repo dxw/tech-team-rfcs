@@ -30,6 +30,7 @@ RFCs specific to one of our core frameworks or languages, e.g. GovPress, Rails
 or TypeScript, which are subcategorised for ease of reference.
 
 - [Use Docker to deploy and run our applications in containers][013]
+- [Use Auth0 as the default auth provider][021]
 - [Use standard linting tools across all of our projects][035]
 - [Use existing libraries where possible][087]
 
@@ -40,7 +41,6 @@ or TypeScript, which are subcategorised for ease of reference.
 #### Rails
 
 - [Use Rollbar to monitor application errors for Rails projects][020]
-- [Use Auth0 as the default auth provider][021]
 - [Use ERB by default in our Rails projects][022]
 - [Use Brakeman on all Rails projects][024]
 
@@ -224,7 +224,7 @@ intended it to be.
 [018]: ways-of-working/rfc-018-our-decision-making-process-is-public.md
 [019]: ways-of-working/rfc-019-use-changelogs-to-track-changes.md
 [020]: tools-and-technology/rails/rfc-020-use-rollbar-to-monitor-rails-errors.md
-[021]: tools-and-technology/rails/rfc-021-use-auth0-as-the-default-auth-provider.md
+[021]: tools-and-technology/rfc-021-use-auth0-as-the-default-auth-provider.md
 [022]: tools-and-technology/rails/rfc-022-use-erb-as-default-templating-language.md
 [023]: ways-of-working/rfc-023-use-scripts-to-rule-them-all.md
 [024]: tools-and-technology/rails/rfc-024-use-brakeman.md

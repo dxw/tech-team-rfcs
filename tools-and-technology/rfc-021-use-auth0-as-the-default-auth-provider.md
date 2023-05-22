@@ -2,8 +2,8 @@
 
 ## Summary
 
-Use Auth0 as an authentication and authorisation service for Rails projects
-where clients do not have a preferred choice.
+Use Auth0 as an authentication and authorisation service for Delivery+
+(non-GovPress) projects where clients do not have a preferred choice.
 
 ## Problem
 
@@ -35,7 +35,7 @@ We SHOULD first seek to use existing auth services where clients have them in
 place.
 
 When there is not an existing solution, we SHOULD use [Auth0](https://auth0.com)
-in our Rails projects.
+in our Delivery+ projects.
 
 [Auth0 offers open and common standards](https://auth0.com/docs/protocols)
 including:
