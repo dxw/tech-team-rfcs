@@ -15,4 +15,5 @@ jobs:
         with:
           add-labels: "new"
           ignore-if-assigned: false
+          ignore-if-labeled: true
           repo-token: ${{ secrets.GITHUB_TOKEN }}
