@@ -1,16 +1,7 @@
 name: Check approvals
 
 on:
-  pull_request:
-    types:
-      - labeled
-      - unlabeled
-      - opened
-      - reopened
-      - synchronize
-      - ready_for_review
   pull_request_review:
-    types: [submitted, edited, dismissed]
 
 jobs:
   check-approvals-tooling:
