@@ -44,7 +44,11 @@ or TypeScript, which are subcategorised for ease of reference.
 - [Use ERB by default in our Rails projects][022]
 - [Use Brakeman on all Rails projects][024]
 
+<!-- markdownlint-disable MD026 -->
+
 ## How it works...
+
+<!-- markdownlint-enable MD001 -->
 
 ### ...for a proposer
 
