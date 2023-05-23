@@ -5,24 +5,44 @@ technical decisions.
 
 ## Current RFCs
 
-Our currently adopted RFCs are as follows:
+Our currently adopted RFCs are linked below, categorised into "ways of working"
+and "tools and technology".
 
-- [Use Docker to deploy and run our applications in containers](rfc-013-use-docker-to-deploy-and-run-applications-in-containers.md)
-- [Our decision making process is public](rfc-018-our-decision-making-process-is-public.md)
-- [Use changelogs to track changes](rfc-019-use-changelogs-to-track-changes.md)
-- [Use Rollbar to monitor application errors for Rails projects](rfc-020-use-rollbar-to-monitor-rails-errors.md)
-- [Use Auth0 as the default auth provider](rfc-021-use-auth0-as-the-default-auth-provider.md)
-- [Use ERB by default in our Rails projects](rfc-022-use-erb-as-default-templating-language.md)
-- [Use the "Scripts To Rule Them All" pattern for common tasks](rfc-023-use-scripts-to-rule-them-all.md)
-- [Use Brakeman on all Rails projects](rfc-024-use-brakeman.md)
-- [Adopt a code of conduct for public repositories](rfc-028-adopt-a-code-of-conduct.md)
-- [Source code should be open source by default](rfc-029-source-code-should-be-open-source-by-default.md)
-- [Use standard linting tools across all of our projects](rfc-035-use-standard-linting-tools-across-all-our-projects.md)
-- [Don't use `master` as a branch name](rfc-036-dont-use-master-as-a-branch-name.md)
-- [Script imports of production data](rfc-079-script-imports-of-production-data.md)
-- [Use Existing Libraries Where Possible](rfc-087-use-libraries-where-possible.md)
-- [Optimise Dependabot rules in GovPress repos](rfc-088-optimise-dependabot-config-files-in-govpress-repos.md)
-- [Testing our work](rfc-173-testing-our-work.md)
+### Ways of working
+
+These are RFCs that are more general in focus. They aren't about using
+particular tools and technology, or types of tools and technology, but rather
+more general approaches we like to take.
+
+- [Our decision making process is public][018]
+- [Use changelogs to track changes][019]
+- [Use the "Scripts To Rule Them All" pattern for common tasks][023]
+- [Adopt a code of conduct for public repositories][028]
+- [Source code should be open source by default][029]
+- [Don't use `master` as a branch name][036]
+- [Script imports of production data][079]
+- [Testing our work][173]
+
+### Tools and technology
+
+These are RFCs about using specific types of tools and technology. This includes
+RFCs specific to one of our core frameworks or languages, e.g. GovPress, Rails
+or TypeScript, which are subcategorised for ease of reference.
+
+- [Use Docker to deploy and run our applications in containers][013]
+- [Use Auth0 as the default auth provider][021]
+- [Use standard linting tools across all of our projects][035]
+- [Use existing libraries where possible][087]
+
+#### GovPress
+
+- [Optimise Dependabot rules in GovPress repos][088]
+
+#### Rails
+
+- [Use Rollbar to monitor application errors for Rails projects][020]
+- [Use ERB by default in our Rails projects][022]
+- [Use Brakeman on all Rails projects][024]
 
 ## How it works...
 
@@ -30,16 +50,20 @@ Our currently adopted RFCs are as follows:
 
 1. Create a new branch named `rfc/my-proposal-title`
 1. Make a copy of `rfc-000-template.md` renamed `rfc-000-my-proposal-title.md`
+   and add it to the relevant directory (`/tools-and-technologies`, its
+   subdirectories, or `ways-of-working`). You may create a new subdirectory if
+   relevant
 1. Write your proposal
    - Include any images or supporting documents in a separate directory named
      `rfc-000` and link to them from the proposal
 1. When you're ready, push your branch and create a **draft** Pull Request (PR)
    for it
-1. Rename your file (and directory if you created one) with the number of the PR
-   and push an amended commit
+1. Rename your file (and directory of images and supporting documents if you
+   created one) with the number of the PR and push an amended commit
 1. Update `README.md` to include the title and link to the RFC file at the
-   bottom of the list. If your RFC supersedes or deprecates a previous one,
-   remove it from the list.
+   bottom of the relevant section. All the links are provided as numbered
+   references at the bottom of `README.md`. If your RFC supersedes or deprecates
+   a previous one, remove it from the list
 1. When you are satisfied, mark your PR as **ready for review**
    - Assign some reviewers if there's anyone you think your proposal might be
      particularly relevant to
@@ -194,3 +218,22 @@ fix any issues it can, so you usually won't need to run it yourself.
 If you notice the linter doing unexpected things to your formatting, it's
 usually a sign that your original formatting wouldn't have been parsed as you
 intended it to be.
+
+<!-- prettier-ignore-start -->
+[013]: tools-and-technology/rfc-013-use-docker-to-deploy-and-run-applications-in-containers.md
+[018]: ways-of-working/rfc-018-our-decision-making-process-is-public.md
+[019]: ways-of-working/rfc-019-use-changelogs-to-track-changes.md
+[020]: tools-and-technology/rails/rfc-020-use-rollbar-to-monitor-rails-errors.md
+[021]: tools-and-technology/rfc-021-use-auth0-as-the-default-auth-provider.md
+[022]: tools-and-technology/rails/rfc-022-use-erb-as-default-templating-language.md
+[023]: ways-of-working/rfc-023-use-scripts-to-rule-them-all.md
+[024]: tools-and-technology/rails/rfc-024-use-brakeman.md
+[028]: ways-of-working/rfc-028-adopt-a-code-of-conduct.md
+[029]: ways-of-working/rfc-029-source-code-should-be-open-source-by-default.md
+[035]: tools-and-technology/rfc-035-use-standard-linting-tools-across-all-our-projects.md
+[036]: ways-of-working/rfc-036-dont-use-master-as-a-branch-name.md
+[079]: ways-of-working/rfc-079-script-imports-of-production-data.md
+[087]: tools-and-technology/rfc-087-use-libraries-where-possible.md
+[088]: tools-and-technology/govpress/rfc-088-optimise-dependabot-config-files-in-govpress-repos.md
+[173]: ways-of-working/rfc-173-testing-our-work.md
+<!-- prettier-ignore-end -->
