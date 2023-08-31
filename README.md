@@ -22,6 +22,7 @@ more general approaches we like to take.
 - [Don't use `master` as a branch name][036]
 - [Script imports of production data][079]
 - [Testing our work][173]
+- [Use automated accessibility checks in feature tests][244]
 
 ### Tools and technology
 
@@ -240,4 +241,5 @@ intended it to be.
 [087]: tools-and-technology/rfc-087-use-libraries-where-possible.md
 [088]: tools-and-technology/govpress/rfc-088-optimise-dependabot-config-files-in-govpress-repos.md
 [173]: ways-of-working/rfc-173-testing-our-work.md
+[244]: ways-of-working/rfc-244-use-automated-accessibility-checks-in-feature-tests.md
 <!-- prettier-ignore-end -->
