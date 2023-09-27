@@ -90,8 +90,8 @@ Example pull requests using [@axe-core/playwright][axe-playwright]:
 [axe-playwright]: https://github.com/dequelabs/axe-core-npm/tree/develop/packages/playwright
 [dfe-find-information-about-academies-and-trusts-34]: https://github.com/DFE-Digital/find-information-about-academies-and-trusts/pull/34
 [dxw-accessibility-manual]: https://accessibility.dxw.com
-[dxw-accessibility-principle]: https://playbook.dxw.com/who-we-are/#make-everything-we-do-accessible
-[dxw-mission-statement]: https://playbook.dxw.com/who-we-are/#our-mission
+[dxw-accessibility-principle]: https://playbook.dxw.com/about-us/our-mission-values-and-principles/#make-everything-we-do-accessible
+[dxw-mission-statement]: https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission
 [gov-uk-accessibility-requirements-wcag]: https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag#meeting-government-accessibility-requirements
 [gov-uk-accessibility-requirements-services]: https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements
 [moj-accredited-programmes-128]: https://github.com/ministryofjustice/hmpps-accredited-programmes-ui/pull/128
