@@ -78,7 +78,7 @@ Example pull requests using [cypress-axe][axe-cypress]:
 Example pull requests using [@axe-core/playwright][axe-playwright]:
 
 - [Find information about academies and trusts
-  #34][dfe-find-information-about-academies-and-trusts-34]
+  #150][dfe-find-information-about-academies-and-trusts-150]
 
 ## Next steps
 
@@ -88,7 +88,7 @@ Example pull requests using [@axe-core/playwright][axe-playwright]:
 [axe-coverage-report]: https://www.deque.com/automated-accessibility-testing-coverage
 [axe-cypress]: https://github.com/component-driven/cypress-axe
 [axe-playwright]: https://github.com/dequelabs/axe-core-npm/tree/develop/packages/playwright
-[dfe-find-information-about-academies-and-trusts-34]: https://github.com/DFE-Digital/find-information-about-academies-and-trusts/pull/34
+[dfe-find-information-about-academies-and-trusts-150]: https://github.com/DFE-Digital/find-information-about-academies-and-trusts/pull/150
 [dxw-accessibility-manual]: https://accessibility.dxw.com
 [dxw-accessibility-principle]: https://playbook.dxw.com/about-us/our-mission-values-and-principles/#make-everything-we-do-accessible
 [dxw-mission-statement]: https://playbook.dxw.com/about-us/our-mission-values-and-principles/#our-mission
