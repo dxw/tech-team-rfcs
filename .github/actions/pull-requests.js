@@ -48,7 +48,7 @@ module.exports = {
       {
         owner: context.repo.owner,
         name: context.repo.repo,
-      }
+      },
     );
 
     console.log("Found %d open pull requests", allPullRequests.length);
@@ -57,7 +57,7 @@ module.exports = {
 
     console.log(
       "Found %d non-draft pull requests",
-      nonDraftPullRequests.length
+      nonDraftPullRequests.length,
     );
 
     const pullRequestsReadyForReviewBeforeCutoff = nonDraftPullRequests.filter(
@@ -77,24 +77,24 @@ module.exports = {
 
         if (
           ["ClosedEvent", "ConvertToDraftEvent"].includes(
-            latestEvent.__typename
+            latestEvent.__typename,
           )
         ) {
           return false;
         }
 
         return latestEvent.createdAt < millisecondsAgo;
-      }
+      },
     );
 
     console.log(
       "Found %d pull requests last made ready for review %d days or longer ago",
       pullRequestsReadyForReviewBeforeCutoff.length,
-      days
+      days,
     );
 
     const pullRequestIds = pullRequestsReadyForReviewBeforeCutoff.map(
-      (pr) => pr.id
+      (pr) => pr.id,
     );
 
     return pullRequestIds;
@@ -121,7 +121,7 @@ module.exports = {
         owner: context.repo.owner,
         name: context.repo.repo,
         labelName,
-      }
+      },
     );
 
     if (!label) {
@@ -143,9 +143,9 @@ module.exports = {
               labelIds: [label.id],
               labelableId: id,
             },
-          }
-        )
-      )
+          },
+        ),
+      ),
     );
 
     return;
