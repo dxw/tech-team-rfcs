@@ -28,8 +28,8 @@ arguments. Type checking (at compile-time for compiled languages, and via
 separate tooling for uncompiled) can then make sure that no situation arises in
 the code where data is either returned or passed in an unsupported type.
 
-Although this doesn't guarantee bug-free programming, and does not replace the need
-for testing or peer review, it does offer guard rails against some common
+Although this doesn't guarantee bug-free programming, and does not replace the
+need for testing or peer review, it does offer guard rails against some common
 mistakes and encourages consideration of exactly what types of data any piece of
 code will be expected to handle.
 
@@ -39,7 +39,8 @@ Where a language either includes support for static typing or where tooling
 exists to ensure it, new projects SHOULD make use of static typing.
 
 If an existing project is in a language which supports optional or partial
-typing, you MAY choose to add static typing only to parts of the codebase as they are modified.
+typing, you MAY choose to add static typing only to parts of the codebase as
+they are modified.
 
 Where static typing is used, any automated test pipeline MUST make sure that
 types are checked.
