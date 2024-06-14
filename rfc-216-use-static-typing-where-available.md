@@ -13,7 +13,7 @@ typing where available.
 
 In programming, every piece of data has a type. For example, whole numbers are
 integers, and a series of characters is a string. Generally speaking any method
-can only be accept some of these types - for example it doesn't make sense to
+can only accept some of these types - for example it doesn't make sense to
 multiply two strings, or to capitalise an integer.
 
 dxw predominantly programs in what are known as dynamically typed languages,
@@ -28,7 +28,7 @@ arguments. Type checking (at compile-time for compiled languages, and via
 separate tooling for uncompiled) can then make sure that no situation arises in
 the code where data is either returned or passed in an unsupported type.
 
-Although this doesn't guarantee bug programming, and does not replace the need
+Although this doesn't guarantee bug-free programming, and does not replace the need
 for testing or peer review, it does offer guard rails against some common
 mistakes and encourages consideration of exactly what types of data any piece of
 code will be expected to handle.
@@ -36,13 +36,13 @@ code will be expected to handle.
 ## Proposal
 
 Where a language either includes support for static typing or where tooling
-exists to ensure it, programs we write SHOULD make use of static typing.
+exists to ensure it, new projects SHOULD make use of static typing.
+
+If an existing project is in a language which supports optional or partial
+typing, you MAY choose to add static typing only to parts of the codebase as they are modified.
 
 Where static typing is used, any automated test pipeline MUST make sure that
 types are checked.
-
-If an existing project is in a language which supports optional or partial
-typing, you MAY only type parts of the codebase as they are modified.
 
 ## Next steps
 
