@@ -19,8 +19,8 @@ accessible][dxw-accessibility-principle], and the first point of [our mission
 statement][dxw-mission-statement] is to:
 
 > build services that fit seamlessly into user’s lives, and that make public
-> services usable and _accessible to all_ [emphasis added] – especially those
-> most in need
+> services usable and _accessible to all_ [emphasis added] – especially those most
+> in need
 
 We take accessibility seriously in our client projects: designers, developers,
 and members of other disciplines within a sprinting team strive to consider
