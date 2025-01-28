@@ -80,14 +80,24 @@ Example pull requests using [@axe-core/playwright][axe-playwright]:
 - [Find information about academies and trusts
   #150][dfe-find-information-about-academies-and-trusts-150]
 
+### Rspec/Capybara
+
+Example pull requests using [@axe-core/rspec][axe-rspec] and
+[@axe-core/capybara][axe-capybara]:
+
+- [airTEXT #230][air-text-230]
+
 ## Next steps
 
 - [ ] Add automated accessibility checks to template repositories
 
 <!-- prettier-ignore-start -->
+[air-text-230]: https://github.com/dxw/air-text/pull/230
+[axe-capybara]: https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-capybara
 [axe-coverage-report]: https://www.deque.com/automated-accessibility-testing-coverage
 [axe-cypress]: https://github.com/component-driven/cypress-axe
 [axe-playwright]: https://github.com/dequelabs/axe-core-npm/tree/develop/packages/playwright
+[axe-rspec]: https://github.com/dequelabs/axe-core-gems/tree/develop/packages/axe-core-rspec
 [dfe-find-information-about-academies-and-trusts-150]: https://github.com/DFE-Digital/find-information-about-academies-and-trusts/pull/150
 [dxw-accessibility-manual]: https://accessibility.dxw.com
 [dxw-accessibility-principle]: https://playbook.dxw.com/about-us/our-mission-values-and-principles/#make-everything-we-do-accessible
