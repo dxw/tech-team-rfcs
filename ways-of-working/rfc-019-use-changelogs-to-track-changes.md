@@ -5,8 +5,8 @@
 Many of our projects have staged releases. In order to be confident about what
 we're releasing, and make it easier to communicate that to stakeholders,
 projects that are not continuously released SHOULD use changelogs following the
-[Keep a Changelog 1.0.0][] format to track changes as they happen, and label which
-release they become part of as part of the release process.
+[Keep a Changelog 1.0.0][] format to track changes as they happen, and label
+which release they become part of as part of the release process.
 
 ## Problem
 
