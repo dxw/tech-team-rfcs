@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Label as "new"
-        uses: andymckay/labeler@1.0.4
+        uses: andymckay/labeler@e6c4322d0397f3240f0e7e30a33b5c5df2d39e90 # 1.0.4
         with:
           add-labels: "new"
           ignore-if-assigned: false
