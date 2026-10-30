@@ -21,21 +21,21 @@ to make the repository public.
 In this RFC we use the term “open source”, to be consistent with the language
 which the UK government uses to talk about software. We take our definition of
 open source software as being to equal that of
-[free software](https://en.wikipedia.org/wiki/Free_software)—software which
+[free software](https://en.wikipedia.org/wiki/Free_software) — software which
 allows users to run, study, redistribute or improve it.
 
 ## Problem
 
-dxw creates a lot of source code repositories—for tools that we use internally,
-and for client work. When writing new code, we have a choice between making it
-available to the public and keeping it private for our own use or that of the
-client.
+dxw creates a lot of source code repositories — for tools that we use
+internally, and for client work. When writing new code, we have a choice between
+making it available to the public and keeping it private for our own use or that
+of the client.
 
-Sometimes the code that we write might be useful to the rest of the world—it
+Sometimes the code that we write might be useful to the rest of the world — it
 solves a common problem, or it provides inspiration for how to solve a problem.
 We don’t usually work on projects that require secrecy. We already make most of
-our repositories public—most notably the Playbook—but until now we haven’t had
-an official policy, although we’ve
+our repositories public — most notably the Playbook — but until now we haven’t
+had an official policy, although we’ve
 [tried to](https://github.com/dxw/playbook/issues/12) in the past. Most of our
 client projects are also in public repositories.
 
@@ -45,7 +45,7 @@ why we make our RFC decision making process open. Those reasons apply here, too.
 Allowing the team to work in the open also has benefits for individual
 developers. They:
 
-- can show their work to friends and family—show the thing instead of talking
+- can show their work to friends and family — show the thing instead of talking
   about the thing
 - know that they’re investing their energy in something maximally useful and
   long-lasting
@@ -81,7 +81,7 @@ with “dxw”.
 
 We MAY allow a non-client repository to be private if it contains:
 
-- secrets such as keys—although this is bad practice and should not have
+- secrets such as keys — although this is bad practice and should not have
   happened in the first place
 - personal information
 - commercially sensitive information
@@ -114,7 +114,7 @@ We SHOULD reduce this risk by pinning some repositories which we’re proud of, 
 that they appear at the top of dxw’s GitHub page.
 
 We already considered a similar risk of being misunderstood in
-[RFC 28](rfc-028-adopt-a-code-of-conduct.md)—namely, that adding a code of
+[RFC 28](rfc-028-adopt-a-code-of-conduct.md) — namely, that adding a code of
 conduct might suggest that we’re actively seeking community contributions. We
 said that we can mitigate this risk by using the `CONTRIBUTING.md` file to
 explain our likely response to contributions. And so, in the case of public
@@ -122,7 +122,7 @@ repositories, we MAY also use a repository’s readme to explain the state of th
 project – for example, that it’s a proof of concept.
 
 Although we produce software which is open source and sometimes useful, our
-principles emphasise that we are _working in the open_—that is, we are
+principles emphasise that we are _working in the open_ — that is, we are
 observable. It doesn’t imply we’re always exemplary.
 
 ## Next steps
